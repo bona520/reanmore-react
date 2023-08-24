@@ -1,0 +1,34 @@
+.courseSection {
+  max-width: 1024px;
+  margin: 0 auto 15rem auto;
+}
+.courseSection > header {
+  margin: 10rem 0 3rem 0;
+  text-align: center;
+}
+.heading {
+  color: transparent;
+  background: linear-gradient(45deg, #7fff96, #17c517);
+  -webkit-background-clip: text;
+}
+.courseSection p {
+  color: #cfcfcf;
+  margin-top: 2rem;
+}
+.grid {
+  justify-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .courseSection {
+    padding: 0 2.5rem;
+  }
+  .courseSection p {
+    margin-top: 1rem;
+  }
+}

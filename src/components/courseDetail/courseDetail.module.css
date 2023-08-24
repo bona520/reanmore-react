@@ -1,0 +1,202 @@
+.courseDescription {
+  padding: 0 1.5rem;
+}
+
+.cdHeader {
+  margin: 0 auto;
+  max-width: 768px;
+}
+.cdHeading {
+  font-size: 6rem;
+  text-align: center;
+  margin: 5rem 0;
+  line-height: 0.9;
+  padding: 0 2rem;
+}
+.cdHeading > span {
+  margin: 2rem;
+  font-size: 3.5rem;
+  color: transparent;
+  background: linear-gradient(to right bottom, #94ffff, #52a9ff);
+  -webkit-background-clip: text;
+}
+.cdText {
+  display: flex;
+  gap: 2rem;
+  height: auto;
+  background: linear-gradient(
+    to right bottom,
+    rgba(56, 56, 56, 0.7),
+    rgba(37, 37, 37, 0.7)
+  );
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cdText p {
+  padding: 2.5rem 2.5rem 2.5rem 0;
+}
+.cdText::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: auto;
+  background: linear-gradient(to right bottom, #94ffff, #52a9ff);
+}
+.cdPublish {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+.cdPublish > span {
+  color: #ababab;
+}
+.cdPublish :first-child {
+  background-color: rgb(15, 59, 59);
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+.cdPublish :last-child {
+  background-color: rgb(59, 15, 46);
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .cdHeading > span {
+    font-size: 2.2rem;
+  }
+  .cdHeader {
+    padding: 0 2rem;
+  }
+}
+
+.willLearn {
+  padding: 0 1.5rem;
+  max-width: 768px;
+  margin: 10rem auto;
+}
+.willLearn ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+.willLearn li {
+  padding: 0.5rem 0;
+}
+.willLearn > h3 {
+  margin-bottom: 2rem;
+  font-size: 4.5rem;
+}
+@media screen and (max-width: 768px) {
+  .willLearn li {
+    background-color: #474d53;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 15px;
+  }
+  .willLearn li:nth-child(even) {
+    background-color: #3f4347;
+  }
+}
+
+/* enrol */
+.enroll {
+  max-width: 768px;
+  margin: 10rem auto;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+.enroll > h3 {
+  margin-bottom: 5rem;
+  color: #52c5ff;
+}
+
+.cdPrice {
+  font-size: 3.5rem;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  margin: 2rem auto;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: rgb(22, 31, 40);
+  /* box-shadow: 0 0 20px rgb(41, 73, 81); */
+}
+.payingMethod {
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: rgb(22, 31, 40);
+  /* box-shadow: 0 0 20px rgb(41, 73, 81); */
+
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.cdPrice > p {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: #00aaff;
+}
+@media screen and (max-width: 768px) {
+  .payingMethod :first-child {
+    display: block;
+    font-size: 2.5rem;
+  }
+}
+
+/* buttonChart */
+.btnChartTelegram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 10rem 0;
+}
+.btnChartTelegram > span {
+  font-size: 2.5rem;
+}
+.btnChart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  color: rgb(0, 174, 255);
+  background: rgba(0, 0, 0, 0.7);
+  background: linear-gradient(
+    149deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  box-shadow: 0 0 25px rgb(18, 46, 60);
+}
+.popup {
+  position: relative;
+  background-color: #00aaff;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: load 0.5s ease-out infinite;
+}
+
+@keyframes load {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

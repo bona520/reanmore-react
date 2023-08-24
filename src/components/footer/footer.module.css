@@ -1,0 +1,27 @@
+.footer {
+  padding: 10rem 0;
+}
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+}
+.footerLinks img {
+  margin: 0 0.4rem;
+  width: 25px;
+  height: auto;
+  filter: invert(79%) sepia(36%) saturate(658%) hue-rotate(174deg)
+    brightness(101%) contrast(103%);
+  transition: filter 0.3s;
+}
+
+.footerLinks img:hover {
+  filter: invert(99%) sepia(58%) saturate(5852%) hue-rotate(175deg)
+    brightness(105%) contrast(112%);
+}
+.footer .copyRight {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: rgb(133, 224, 255);
+  font-size: 1.7rem;
+}
