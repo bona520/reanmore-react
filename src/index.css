@@ -85,3 +85,21 @@ ul {
   padding: 5rem;
   font-size: 3rem;
 }
+::-webkit-scrollbar {
+	width: 5px;
+	background: transparent;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #868585;
+	border-radius: 10px;
+	transition: 0.05s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #666;
+}

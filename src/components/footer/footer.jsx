@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <p className={copyRight}>
         &#169; Copyright {new Date().getFullYear()}
-        <br /> <span>  All rights reserved by reanmore.com</span>
+        <br />   All rights reserved by reanmore.com
       </p>
     </footer>
   );
