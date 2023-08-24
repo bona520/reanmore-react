@@ -12,7 +12,7 @@ const Footer = () => {
           <img src={telegram} alt="Telegram" />
         </a>
         <a
-          href={"https://facebook.com/hengmenghoy"}
+          href={"https://www.facebook.com/hengmenghoykh"}
           target="_blank"
           rel="noreferrer"
         >
@@ -31,7 +31,8 @@ const Footer = () => {
         </a>
       </div>
       <p className={copyRight}>
-        &#169; Copyright 2023 <br /> All rights reserved by reanmore.com
+        &#169; Copyright {new Date().getFullYear()}
+        <br /> <span>  All rights reserved by reanmore.com</span>
       </p>
     </footer>
   );

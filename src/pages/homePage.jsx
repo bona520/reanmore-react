@@ -1,4 +1,4 @@
-import CourseSection from "../components/courseSection/courseSection.jsx";
+import CourseSection from "../components/courseSection/index.jsx";
 import HeroSection from "../components/heroSection/heroSection.jsx";
 
 const HomePage = () => {

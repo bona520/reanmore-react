@@ -1,5 +1,5 @@
 import React from "react";
-import CourseDetail from "../components/courseDetail/courseDetail";
+import CourseDetail from "../components/courseDetail";
 
 const JsAtoZDescPage = () => {
   return (

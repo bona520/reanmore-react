@@ -2,7 +2,7 @@ import styles from "./courseSection.module.css";
 import htmlAndCss from "../../assets/images/htmlandcss.webp";
 import javaScript from "../../assets/images/javascript.webp";
 import javaScriptProjects from "../../assets/images/jsprojects.webp";
-import CourseCard from "../courseCard/courseCard";
+import CourseCard from "../courseCard";
 const CourseSection = () => {
   const { heading, courseSection, grid } = styles;
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 // import htmlAndCss from "../src/images/htmlandcss.webp";
 import jsRealProject from "../assets/images/jsprojects.webp";
-import CourseCard from "../components/courseCard/courseCard";
+import CourseCard from "../components/courseCard";
 const HotPage = () => {
   return (
     <>
